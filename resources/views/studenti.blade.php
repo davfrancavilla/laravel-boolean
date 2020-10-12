@@ -2,16 +2,20 @@
 @section('titolo', 'home')
 
 @section('content')
-    <div class="card-group">
-        @foreach ($data as $student)
-            <div class="card">
-                <img src="{{$student['img']}}" class="card-img-top" alt="{{$student['nome']}}">
-                <div class="card-body">
-                <h5 class="card-title">{{$student['nome']}}</h5>
-                <p class="card-text">{{$student['descrizione']}}</p>
-                <p class="card-text"><small class="text-muted">{{$student['anni']}} anni</small></p>
+    <section class="my-container students">
+        <div class="my-cards">
+            @foreach ($data as $student)
+            <div class="student-box">
+                <div class="student">
+                    <img src="{{$student['img']}}" class="card-img-top" alt="{{$student['nome']}}">
+                    <div class="">
+                    <h5 class="name">{{$student['nome']}}</h5>
+                    <p class="">{{$student['descrizione']}}</p>
+                    <p class=""><small class="">{{$student['anni']}} anni</small></p>
+                    </div>
                 </div>
             </div>
-        @endforeach
-    </div>
+            @endforeach
+        </div>
+    </section>
 @endsection

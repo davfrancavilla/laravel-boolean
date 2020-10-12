@@ -10899,3 +10899,45 @@ a.text-dark:focus {
   }
 }
 
+.my-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.my-container .my-cards {
+  padding: 30px 0;
+  margin: 0 auto;
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 60%;
+}
+
+.my-container .my-cards .student-box {
+  padding: 20px;
+  width: 300px;
+  min-width: 300px;
+}
+
+.my-container .my-cards .student {
+  box-shadow: 1px 1px 10px black;
+  border-radius: 20px;
+  padding: 10px;
+  height: 100%;
+}
+
+.my-container .my-cards .student img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.my-container .my-cards .student h5 {
+  display: inline-block;
+}
+
+.my-container .my-cards .student .name {
+  text-transform: uppercase;
+}
+
