@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    padding-top: 40px;
+}
+
+.my-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    padding: 10px 25px;
+    background-color: #45d977;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover {
+        background-color: darken(#45d977, 5%);
+    }
+}

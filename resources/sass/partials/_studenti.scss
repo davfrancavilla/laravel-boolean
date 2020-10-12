@@ -1,8 +1,5 @@
-.my-container {
-    width: 80%;
-    margin: 0 auto;
+
     .my-cards {
-        padding: 30px 0;
         margin: 0 auto;
         overflow-x: auto;
         display: flex;
@@ -22,14 +19,13 @@
                 width: 100px;
                 height: 100px;
                 border-radius: 50%;
-                display: inline-block;
-            }
-            h5 {
-                display: inline-block;
+                margin-bottom: 10px;
             }
             .name {
                 text-transform: uppercase;
             }
+            p {
+                margin-top: 10px;
+            }
         }
     }
-}

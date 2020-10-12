@@ -1,0 +1,16 @@
+nav {
+    height: 70px;
+    border-bottom: 1px solid lightgray;
+    .my-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        img {
+            height: 40px;
+        }
+        li {
+        display: inline-block;
+        }
+    }   
+}

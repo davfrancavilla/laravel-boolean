@@ -2,5 +2,7 @@
 @section('titolo', 'Chi siamo')
 
 @section('content')
-    <div>Chi siamo</div>
+    <div class="my-container">
+        <div>Chi siamo</div>
+    </div>  
 @endsection

@@ -10,9 +10,8 @@
 <body>
 
     <header>@include('partials.header')</header>
-    @section('')
-        <nav></nav>
-    @show
+    {{-- @section('')
+    @show --}}
 
     <main>
         @yield('content')
