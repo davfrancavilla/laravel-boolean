@@ -11,6 +11,11 @@ nav {
         }
         li {
         display: inline-block;
+            &.active {
+                a {
+                    text-decoration: underline;
+                }  
+            }
         }
     }   
 }

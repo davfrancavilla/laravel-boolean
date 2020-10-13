@@ -28,12 +28,12 @@ ul {
 
 .btn {
     padding: 10px 25px;
-    background-color: #45d977;
+    background-color: $green;
     color: white;
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
     &:hover {
-        background-color: darken(#45d977, 5%);
+        background-color: darken($green, 5%);
     }
 }

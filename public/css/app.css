@@ -95,3 +95,7 @@ nav .my-container li {
   display: inline-block;
 }
 
+nav .my-container li.active a {
+  text-decoration: underline;
+}
+
