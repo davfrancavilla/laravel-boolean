@@ -28,7 +28,7 @@ ul {
 
 .btn {
   padding: 10px 25px;
-  background-color: #45d977;
+  background-color: #0cd977;
   color: white;
   border-radius: 5px;
   text-transform: uppercase;
@@ -36,7 +36,7 @@ ul {
 }
 
 .btn:hover {
-  background-color: #30d568;
+  background-color: #0bc16a;
 }
 
 .my-cards {
@@ -97,5 +97,9 @@ nav .my-container li {
 
 nav .my-container li.active a {
   text-decoration: underline;
+}
+
+.home .jumbotron .left h2 {
+  color: #0cd977;
 }
 
